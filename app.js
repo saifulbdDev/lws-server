@@ -35,6 +35,6 @@ app.use(notFoundHandler);
 app.use(defaultErrorHandler);
 
 // Server
-app.listen(process.env.PORT || 5000, () => {
-    console.log(`${process.env.APP_NAME} app listening on port ${process.env.PORT}`);
+app.listen(process.env.PORT || 80, () => {
+    console.log('Server is running...');
 });
