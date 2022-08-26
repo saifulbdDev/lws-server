@@ -35,6 +35,6 @@ app.use(notFoundHandler);
 app.use(defaultErrorHandler);
 
 // Server
-app.listen(process.env.PORT || 'https://fake-server-lws.herokuapp.com/', () => {
+app.listen(process.env.PORT || 'https://fake-server-lws.herokuapp.com', () => {
    console.log('serve ')
 });
